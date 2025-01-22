@@ -22,6 +22,7 @@ public class ReverseArray {
 
             start++;
             end--;
+            String var1;
 
         }
     }
