@@ -23,10 +23,7 @@ public class ReverseArray {
             start++;
             end--;
 
-            String var1;
-
-
-            String var;
+          //solo informacion de prueba
 
         }
     }
