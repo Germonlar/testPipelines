@@ -10,14 +10,15 @@ public class RemoveDuplicatesFromStr {
     }
 
     public static String removeDup(String str) {
-        StringBuilder noDuWord = new StringBuilder();
+        StringBuilder newWord = new StringBuilder();
 
-        for(char ch : str.toCharArray()){
-            if(!noDuWord.toString().contains(String.valueOf(ch))){
-                noDuWord.append(ch);
+        for (char ch : str.toCharArray()) {
+            if (!newWord.toString().contains(String.valueOf(ch))) {
+                newWord.append(ch);
             }
         }
-        return noDuWord.toString();
+        return newWord.toString();
+
     }
 
 }

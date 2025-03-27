@@ -20,6 +20,7 @@ public class Fibonacci {
             b = temp;
         }
         System.out.println();
+
     }
 
 }
