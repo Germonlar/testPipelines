@@ -10,21 +10,21 @@ public class NumberPalindrome {
     }
 
     public static boolean isPal(int num) {
-        int copy = num;
-        int rev =0;
-        int rightMost;
 
-        while (num>0){
-            rightMost = num % 10;
+        String numeroEnTexto = String.valueOf(num);
+        int i = 0;
+        int j = numeroEnTexto.length() - 1;
 
-            rev = (rev*10) + rightMost;
+        while (i < j) {
+            if(numeroEnTexto.charAt(i) != numeroEnTexto.charAt(j));
+            return false;
 
-            num= num /10;
         }
+         ++i;
+         --j;
 
-        return copy == rev;
+        return true;
     }
-
 }
 
 
